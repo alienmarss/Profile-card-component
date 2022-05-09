@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Kumbh Sans", sans-serif;
+}
+html {
+	font-size: 62.5%;
+}
+
+.container {
+	max-width: 144rem;
+	height: 90rem;
+	padding: 0 3.2rem;
+	margin: 0 auto;
+	background-color: hsl(185, 75%, 39%);
+	background-image: url(../img/top.svg), url(../img/bottom.svg);
+	background-repeat: no-repeat;
+	background-position: -60% 600%, 150% -700%;
+	padding: 25rem 0;
+}
+.card {
+	background-color: #fff;
+	background-image: url(../img/card.svg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: top;
+
+	justify-items: center;
+	margin: 0 auto;
+	width: 40rem;
+	height: 43rem;
+	border-radius: 2rem;
+	overflow: hidden;
+}
+.avatar {
+	margin: 10rem 15rem 2rem 13rem;
+	border-radius: 50%;
+	border: 0.6rem solid #fff;
+	width: 13rem;
+	height: auto;
+}
+.name {
+	font-size: 1.8rem;
+	color: hsl(229, 23%, 23%);
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	margin-bottom: 1rem;
+}
+.age {
+	font-weight: 400;
+	color: hsl(227, 10%, 46%);
+}
+.city {
+	font-size: 1.6rem;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 2.5rem;
+	color: hsl(0, 0%, 59%);
+}
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr 1fr;
+	justify-items: center;
+	align-items: center;
+	column-gap: 5rem;
+}
+.stats {
+	justify-content: center;
+	align-content: center;
+	border-top: 1px solid #eee;
+	padding: 3rem 5rem;
+}
+.numbers1 {
+	color: hsl(229, 23%, 23%);
+	font-size: 1.8rem;
+	font-weight: 700;
+}
+.numbers2 {
+	color: hsl(229, 23%, 23%);
+	font-size: 1.8rem;
+	font-weight: 700;
+}
+.numbers3 {
+	color: hsl(229, 23%, 23%);
+	font-size: 1.8rem;
+	font-weight: 700;
+}
+.descriptions1 {
+	color: hsl(227, 10%, 46%);
+	font-weight: 400;
+	font-size: 1.1rem;
+	letter-spacing: 0.1rem;
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
+}
+.descriptions2 {
+	color: hsl(227, 10%, 46%);
+	font-weight: 400;
+	font-size: 1.1rem;
+	letter-spacing: 0.1rem;
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+}
+.descriptions3 {
+	color: hsl(227, 10%, 46%);
+	font-weight: 400;
+	font-size: 1.1rem;
+	letter-spacing: 0.1rem;
+}
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	padding-top: 5rem;
+	color: hsl(229, 23%, 23%);
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}

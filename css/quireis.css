@@ -1,0 +1,17 @@
+/* **********************MOBILE VERSION************************ */
+
+@media only screen and (max-width: 23.5em) {
+	.container {
+		max-width: 37.5em;
+		background-position: 120% 900%, -20% -470%;
+		padding: 15rem 0;
+	}
+	.card {
+		width: 32rem;
+		height: 40rem;
+	}
+	.avatar {
+		margin: 8rem 10rem 2rem 11rem;
+		width: 10rem;
+	}
+}
